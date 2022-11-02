@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Zeeshan portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/nav.png">
+</head>
+<body>
+    
+    <section class="header"> 
+        
+        <nav>
+            <a href="index.html"><img src="/images/logo3.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">BLOGS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>   
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Hi. I'm Zeeshan. I design <br> & build user interfaces.</h1>
+        <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+        <a class="hero-btn" href="">Learn More What I do</a>   
+    </div>
+ </section>
+
+    <!-- projects -->
+
+    <section class="course">
+        <h1>Things I enjoy designing</h1>
+        <p>HTML, CSS, Webpage, UI, UX, Apps, Logos</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Vs code</h3>
+                <p>VS Code helps you be instantly productive with syntax highlighting, bracket-matching, auto-indentation, box-selection, snippets, and more. Intuitive keyboard shortcuts, easy customization and community-contributed keyboard shortcut mappings let you navigate your code with ease.</p>
+            </div>
+            <div class="course-col">
+                <h3>Bootstrap</h3>
+                <p>Bootstrap enables designers and developers to build completely responsive websites quickly. It can be considered the most popular CSS framework for developing responsive and Mobile-First applications.</p>
+            </div>
+            <div class="course-col">
+                <h3>Github</h3>
+                <p>GitHub is a website for developers and programmers to collaboratively work on code. The primary benefit of GitHub is its version control system, which allows for seamless collaboration without compromising the integrity of the original project. The projects on GitHub are examples of open-source software.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------- -->
+    <section class="campus">
+        <h2>Launguage I Speak</h2>
+        <p>HTML, CSS, C#, ASP.NET, GIT</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="/images/html.jpg"  >
+                <div class="layer">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/images/css.jpg" >
+                <div class="layer">
+                    <h3>css</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/images/csharp.jpg" >
+                <div class="layer">
+                    <h3>C#</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/images/Asp.png" >
+                <div class="layer">
+                    <h3>ASP</h3>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- ______________________________________   -->
+    <section class="facilities">
+        <h1>My Recent Work</h1>
+        <p>Here are a few past design projects I've worked on.</p>
+        <div class="row">
+            <div class="facilites-col">
+                <img src="/images/sat.png" height="120" width="170">
+                <h3>South asian Transport</h3>
+            </div>
+            <div class="facilites-col">
+                <img src="/images/etrendz.png" height="120" width="170" >
+                <h3>Etrendz IT</h3>
+            </div>
+            <div class="facilites-col">
+                <img src="/images/primo.png" height="120" width="170" >
+                <h3>Primo Shoes</h3>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    
+    
+
+
+ 
+    
+    <script> 
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right ="0";
+      }
+      function hideMenu(){
+        navLinks.style.right ="-200px";
+      }
+
+    </script>
+</body>
+</html>
