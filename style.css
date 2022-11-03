@@ -432,7 +432,8 @@ nav .fa{
     font-family:'Poppins', sans-serif;
     height: auto;
     padding: 90px;
-    height: 100vh;
+    
+    
     /* background-image: url(/images/paralex.gif);
     background-attachment: fixed;
     background-size: cover; */
@@ -471,7 +472,7 @@ nav .fa{
     display: flex; 
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -487,15 +488,15 @@ nav .fa{
     text-align: justify;
     font-family: 'Poppins', sans-serif;
 }   
-.skills .skills-content .right .bars{
+/* .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
 .skills .skills-content .right .info{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.skills .skills-content .right span{
+} */
+/* .skills .skills-content .right span{
     font-size: 18px;
     font-weight: 500;
 }
@@ -511,7 +512,7 @@ nav .fa{
     height: 100%;
     left: 0%;
     top: 0%;
-    background: crimson;
+    background: crimson; 
 }
 /* .skills .skills-content .right .html::before{
     width: 90%;
@@ -542,15 +543,19 @@ nav .fa{
     cursor: pointer; 
     border-radius: 4px; 
 }
-.skills .skills-content .right img{
-    width: 90%;
-}
-
 
 .skills .skills-content .left a:hover{
     background-color: transparent;
     color: crimson;
 }
+
+    .skills .skills-content .right img{
+        margin-left: 200px;
+        width: 280px;
+        margin-top: 50px;
+       
+    } 
+
 @media(max-width:700px){
    .skills{
     height: auto;
@@ -561,12 +566,13 @@ nav .fa{
 
     .skills .skills-content{
         flex-direction: column;
-         
+       
     }
     .skills .skills-content .left{
-        margin-left: -50px;
-        width: 290px;
+       
+        width: 100%;
         text-align: justify;
+        
     } 
     .skills .title{
     text-align:center;
@@ -578,8 +584,6 @@ nav .fa{
     .skills .skills-content .right img{
         margin-left: -130px;
         width: 300px;
-        text-align: justify;
-        margin-top: 50px;
     } 
     .skills .title::after{
         width: 125px;
@@ -805,6 +809,7 @@ nav .fa{
     }
 
 }
+
 .top{ 
     text-align: right;
     font-size: 40px;
