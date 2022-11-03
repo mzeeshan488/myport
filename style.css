@@ -571,7 +571,7 @@ nav .fa{
     .skills .skills-content .left{
         width: 125%;
         text-align: justify;
-        
+        margin-left: -35px;
         
     } 
     .skills .title{
