@@ -431,7 +431,7 @@ nav .fa{
 .skills{
     font-family:'Poppins', sans-serif;
     height: auto;
-    padding: 90px;
+    padding: 70px;
     
     
     /* background-image: url(/images/paralex.gif);
@@ -569,8 +569,9 @@ nav .fa{
        
     }
     .skills .skills-content .left{
-        width: 120%;
+        width: 125%;
         text-align: justify;
+        
         
     } 
     .skills .title{
