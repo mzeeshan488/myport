@@ -318,6 +318,9 @@ nav .fa{
 }
 .about  {
     font-family:'Poppins', sans-serif;
+    width: 100%;
+   justify-content: center;
+  
 }
 .about .title{
     position: relative;
@@ -351,22 +354,24 @@ nav .fa{
 }
 .about .about-content{
     display: flex; 
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
 }
 .about .about-content .left{
-    width: 40%;
+    width: 50%;
+    
 }
 .about .about-content .left img{
     height: 350px;
     width: 350px;
     object-fit: cover;
     border-radius: 5px; 
-    border: 1px solid black;   
+    border: 1px solid black; 
+    margin-left: 85px;  
 }
 .about .about-content .right{
-    width: 45%;
+    width: 50%;
 }    
 .about .about-content .right .text{
     font-size: 25px;
@@ -407,6 +412,8 @@ nav .fa{
     .about .about-content .left img{
         height: 350px;
         width: 350px;
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
     .about .about-content{
         flex-direction: column;
@@ -688,7 +695,6 @@ nav .fa{
 .contact .contact-content .right textarea{
     width: 300px;
     border: 1px solid black;
-    border-radius: 5px;
     height: 135px;
     border-bottom: 1px solid crimson;
     border-top: 0;
