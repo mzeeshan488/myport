@@ -356,11 +356,11 @@ nav .fa{
     justify-content: space-between;
 }
 .about .about-content .left{
-    width: 55%;
+    width: 40%;
 }
 .about .about-content .left img{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
     border-radius: 5px; 
     border: 1px solid black;   
@@ -552,7 +552,7 @@ nav .fa{
     .skills .skills-content .right img{
         margin-left: 200px;
         width: 280px;
-        margin-top: 50px;
+        margin-top: -100px;
        
     } 
 
@@ -594,7 +594,7 @@ nav .fa{
     height: auto;
     padding: 15px;
     margin: auto;
-    width: 60%;
+    width: 80%;
 }
 
 .contact .contact-content{
@@ -670,8 +670,9 @@ nav .fa{
     transform: translate(-50%);
 }
 .contact .contact-content .right{
-    width: 40%;
+    width: 50%;
     margin-top: 120px;
+    margin-left: 200px;
     
 }
 .contact .contact-content .right input{
@@ -681,7 +682,7 @@ nav .fa{
     border-bottom: 1px solid crimson;
     border-top: 0;
     border-left: 0;
-    border-right: 0;
+    border-right:0;
    
 }
 .contact .contact-content .right textarea{
