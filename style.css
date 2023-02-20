@@ -560,7 +560,7 @@ nav .fa{
     .skills .skills-content .right img{
         margin-left: 200px;
         width: 280px;
-        margin-top: 0px;
+        margin-top:-10px;
        
     } 
 
@@ -590,22 +590,13 @@ nav .fa{
     padding-bottom: 30px;
     }
     .skills .skills-content .right img{
-        margin-left: -50px;
+        margin-left: -120px;
         width: 300px;
     } 
     .skills .title::after{
         width: 125px;
 }
-@media(max-width:350px){
-    .skills .skills-content .left{
-        width: 90%;  
-    } 
-    .skills .skills-content .left  p{
-        font-size: 16px;
-        text-align: justify;
-     
-    }     
-}
+
 }
 .contact{
     font-family:'Poppins', sans-serif;
